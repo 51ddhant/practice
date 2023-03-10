@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-09T14:16:03 IST" name="FindingHospitals(Practo)" finished-at="2023-03-09T14:16:37 IST" duration-ms="34000">
+    <groups>
+    </groups>
+    <test started-at="2023-03-09T14:16:03 IST" name="Various functionality of Practo WebApplication" finished-at="2023-03-09T14:16:37 IST" duration-ms="34000">
+      <class name="testSuites.TestCases">
+        <test-method signature="testHospitalFinder(java.lang.String,java.lang.String)[pri:1, instance:testSuites.TestCases@6c61a903]" started-at="2023-03-09T14:16:04 IST" name="testHospitalFinder" data-provider="findingHospitalData" finished-at="2023-03-09T14:16:19 IST" duration-ms="15804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hospital]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHospitalFinder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testSuites.TestCases@6c61a903]" started-at="2023-03-09T14:16:19 IST" name="closeBrowser" finished-at="2023-03-09T14:16:20 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="testCorporateWellness(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testSuites.TestCases@6c61a903]" started-at="2023-03-09T14:16:20 IST" name="testCorporateWellness" data-provider="corporateWellnessData" finished-at="2023-03-09T14:16:30 IST" duration-ms="10381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RandomName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RandomOrg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WrongData]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[random_email@rao.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5600.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Taking a demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorporateWellness -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testSuites.TestCases@6c61a903]" started-at="2023-03-09T14:16:30 IST" name="closeBrowser" finished-at="2023-03-09T14:16:30 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="testTopCities()[pri:3, instance:testSuites.TestCases@6c61a903]" started-at="2023-03-09T14:16:30 IST" name="testTopCities" finished-at="2023-03-09T14:16:36 IST" duration-ms="6011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTopCities -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testSuites.TestCases@6c61a903]" started-at="2023-03-09T14:16:36 IST" name="closeBrowser" finished-at="2023-03-09T14:16:37 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testSuites.TestCases@6c61a903]" started-at="2023-03-09T14:16:37 IST" name="flushReports" finished-at="2023-03-09T14:16:37 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testSuites.TestCases -->
+    </test> <!-- Various functionality of Practo WebApplication -->
+  </suite> <!-- FindingHospitals(Practo) -->
+</testng-results>

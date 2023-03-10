@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- TEAM-12 -->
+<!-- COHORT QEA23QE012 -->
+<suite name="FindingHospitals(Practo)">
+	<test thread-count="1"
+		name="Various functionality of Practo WebApplication">
+		<classes>
+			<class name="testSuites.TestCases" />
+		</classes>
+	</test>
+	<!-- SeleniumTesting -->
+</suite><!-- FindingHospitals -->
